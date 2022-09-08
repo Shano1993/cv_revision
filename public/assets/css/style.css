@@ -47,13 +47,21 @@ h1 {
 h2 {
     color: indianred;
     font-size: 1.8rem;
-    padding: 1.5rem 1rem;
+    padding: 1.8rem 1rem;
+    text-decoration-line: underline;
+}
+
+h3 {
+    color: forestgreen;
+    font-size: 1.6rem;
+    padding: 1.8rem 1rem;
+    text-decoration-line: underline;
 }
 
 #profile, #contact, #skill {
     border-bottom: 0.1rem solid black;
     width: 70%;
-    padding: 1rem;
+    padding: 0.5rem;
 }
 
 #profile > p {
@@ -86,4 +94,60 @@ a {
 
 i {
     margin: 1rem;
+}
+
+section {
+    padding: 1rem;
+}
+
+dt {
+    color: cornflowerblue;
+    padding: 0.5rem;
+    font-size: 1.5rem;
+}
+
+dd > p {
+    font-size: 1.3rem;
+    padding: 0.2rem;
+}
+
+section > ul > li {
+    padding: 0.5rem 2rem;
+    font-size: 1.5rem;
+}
+
+form > fieldset {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+nav {
+    border: 0.1rem solid black;
+    display: flex;
+    justify-content: space-around;
+    margin: 2rem 0;
+}
+
+nav > a {
+    font-size: 2rem;
+}
+
+tr {
+    display: flex;
+    flex-direction: column;
+}
+
+td {
+    font-size: 1.5rem;
+    border-left: 0.1rem solid black;
+    padding: 0.5rem;
+}
+
+input[type=text], textarea {
+    margin: 0.5rem;
+}
+
+fieldset {
+    padding: 0.5rem;
 }
